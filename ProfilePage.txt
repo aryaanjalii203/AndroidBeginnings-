@@ -1,0 +1,115 @@
+Profile Page Layout with Interactive Buttons
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="212dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Reg. No.- 12206589"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@android:color/system_primary_container_dark"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="211dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name:Anjali Arya"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="215dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enail:aryaanjali203@gmail.com"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/material_dynamic_primary80"
+        android:text="Like❤"
+        android:textColorLink="#17639E"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="306dp"
+        android:layout_height="132dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="false"
+        android:text="BIO:"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/system_accent1_600"
+        android:text="Share➤"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="156dp"
+        android:layout_height="161dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments🗨"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Subscribe🔔"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+</androidx.constraintlayout.widget.Constrai
